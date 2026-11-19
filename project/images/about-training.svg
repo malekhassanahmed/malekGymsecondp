@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17171B"/>
+      <stop offset="1" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.25" r="0.7">
+      <stop offset="0" stop-color="#FF4655" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#FF4655" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#glow)"/>
+  <!-- Dumbbell rack silhouette -->
+  <g fill="#060608">
+    <rect x="120" y="560" width="560" height="26" rx="8"/>
+    <rect x="150" y="586" width="22" height="140"/>
+    <rect x="628" y="586" width="22" height="140"/>
+  </g>
+  <!-- Person curling a dumbbell -->
+  <g fill="#060608">
+    <circle cx="410" cy="250" r="42"/>
+    <path d="M380 296 L448 296 L462 480 L368 480 Z"/>
+    <!-- arm raised holding dumbbell -->
+    <path d="M442 300 L520 210 L544 232 L462 320 Z"/>
+    <!-- other arm down -->
+    <path d="M384 300 L352 420 L380 430 L414 316 Z"/>
+    <!-- legs -->
+    <path d="M378 478 L368 690 L406 690 L420 500 Z"/>
+    <path d="M452 478 L472 690 L434 690 L424 500 Z"/>
+  </g>
+  <!-- Dumbbell in hand -->
+  <g>
+    <rect x="470" y="196" width="120" height="16" rx="8" fill="#101014"/>
+    <rect x="452" y="170" width="30" height="68" rx="8" fill="#0A0A0C" stroke="#2A2A31" stroke-width="3"/>
+    <rect x="578" y="170" width="30" height="68" rx="8" fill="#0A0A0C" stroke="#2A2A31" stroke-width="3"/>
+  </g>
+  <!-- Floor -->
+  <rect x="0" y="700" width="800" height="100" fill="#08080A"/>
+</svg>

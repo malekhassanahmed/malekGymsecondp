@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161A"/>
+      <stop offset="1" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#E32636" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#E32636" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Squat rack -->
+  <g fill="#101014" stroke="#26262C" stroke-width="4">
+    <rect x="140" y="80" width="26" height="440" rx="6"/>
+    <rect x="634" y="80" width="26" height="440" rx="6"/>
+    <rect x="140" y="180" width="580" height="20" rx="8"/>
+  </g>
+  <!-- Loaded barbell on rack -->
+  <g>
+    <rect x="120" y="160" width="560" height="16" rx="8" fill="#151519"/>
+    <rect x="120" y="126" width="46" height="84" rx="10" fill="#0A0A0C" stroke="#2A2A31" stroke-width="3"/>
+    <rect x="166" y="132" width="30" height="72" rx="8" fill="#141418" stroke="#2C2C34" stroke-width="2"/>
+    <rect x="634" y="126" width="46" height="84" rx="10" fill="#0A0A0C" stroke="#2A2A31" stroke-width="3"/>
+    <rect x="604" y="132" width="30" height="72" rx="8" fill="#141418" stroke="#2C2C34" stroke-width="2"/>
+  </g>
+  <!-- Weight plates stacked on floor -->
+  <g fill="#0A0A0C" stroke="#26262C" stroke-width="4">
+    <circle cx="300" cy="520" r="56"/>
+    <circle cx="300" cy="520" r="20" fill="#141418"/>
+    <circle cx="410" cy="520" r="44"/>
+    <circle cx="410" cy="520" r="16" fill="#141418"/>
+  </g>
+  <!-- Rubber floor tiles -->
+  <g fill="#08080A">
+    <rect x="0" y="560" width="800" height="40"/>
+  </g>
+  <g stroke="#141418" stroke-width="2">
+    <line x1="0" y1="580" x2="800" y2="580"/>
+    <line x1="200" y1="560" x2="200" y2="600"/>
+    <line x1="400" y1="560" x2="400" y2="600"/>
+    <line x1="600" y1="560" x2="600" y2="600"/>
+  </g>
+</svg>

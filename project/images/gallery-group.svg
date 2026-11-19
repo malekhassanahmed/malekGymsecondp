@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161A"/>
+      <stop offset="1" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#E32636" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#E32636" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Coach leading a group (silhouettes mid-action) -->
+  <g fill="#060608">
+    <!-- coach (front, arms up) -->
+    <circle cx="400" cy="150" r="30"/>
+    <path d="M376 182 L424 182 L438 320 L364 320 Z"/>
+    <path d="M372 190 L310 120 L330 102 L396 176 Z"/>
+    <path d="M428 190 L490 120 L470 102 L404 176 Z"/>
+    <path d="M372 318 L356 470 L394 470 L404 336 Z"/>
+    <path d="M430 318 L448 470 L410 470 L398 336 Z"/>
+    <!-- participant 1 (kettlebell) -->
+    <circle cx="170" cy="240" r="26"/>
+    <path d="M148 268 L194 268 L204 380 L140 380 Z"/>
+    <path d="M152 272 L128 330 L152 342 L178 286 Z"/>
+    <path d="M192 272 L218 330 L194 342 L168 286 Z"/>
+    <path d="M146 378 L138 480 L170 480 L182 396 Z"/>
+    <path d="M196 378 L208 480 L176 480 L166 396 Z"/>
+    <!-- participant 2 (jump) -->
+    <circle cx="630" cy="210" r="26"/>
+    <path d="M608 238 L654 238 L662 340 L600 340 Z"/>
+    <path d="M604 244 L560 210 L572 188 L616 226 Z"/>
+    <path d="M658 244 L700 214 L688 192 L646 228 Z"/>
+    <path d="M606 338 L560 420 L590 436 L630 356 Z"/>
+    <path d="M656 338 L704 424 L674 438 L636 358 Z"/>
+  </g>
+  <!-- kettlebell -->
+  <circle cx="128" cy="356" r="20" fill="#060608" stroke="#26262C" stroke-width="3"/>
+  <!-- energy lines -->
+  <g stroke="#E32636" stroke-width="4" opacity="0.5" stroke-linecap="round">
+    <line x1="530" y1="150" x2="560" y2="130"/>
+    <line x1="540" y1="180" x2="576" y2="170"/>
+    <line x1="260" y1="150" x2="288" y2="128"/>
+  </g>
+  <!-- Floor -->
+  <rect x="0" y="500" width="800" height="100" fill="#08080A"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161A"/>
+      <stop offset="1" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#FF4655" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF4655" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Row of treadmills -->
+  <g fill="#060608" stroke="#1E1E24" stroke-width="3">
+    <g transform="translate(60,160)">
+      <rect x="0" y="240" width="200" height="30" rx="10"/>
+      <rect x="20" y="0" width="16" height="250" rx="8"/>
+      <rect x="0" y="0" width="140" height="16" rx="8" transform="skewX(-12)"/>
+      <rect x="30" y="30" width="60" height="40" rx="8" fill="#101014"/>
+      <ellipse cx="100" cy="256" rx="60" ry="10" fill="#141418"/>
+    </g>
+    <g transform="translate(300,160)">
+      <rect x="0" y="240" width="200" height="30" rx="10"/>
+      <rect x="20" y="0" width="16" height="250" rx="8"/>
+      <rect x="0" y="0" width="140" height="16" rx="8" transform="skewX(-12)"/>
+      <rect x="30" y="30" width="60" height="40" rx="8" fill="#101014"/>
+      <ellipse cx="100" cy="256" rx="60" ry="10" fill="#141418"/>
+    </g>
+    <g transform="translate(540,160)">
+      <rect x="0" y="240" width="200" height="30" rx="10"/>
+      <rect x="20" y="0" width="16" height="250" rx="8"/>
+      <rect x="0" y="0" width="140" height="16" rx="8" transform="skewX(-12)"/>
+      <rect x="30" y="30" width="60" height="40" rx="8" fill="#101014"/>
+      <ellipse cx="100" cy="256" rx="60" ry="10" fill="#141418"/>
+    </g>
+  </g>
+  <!-- Screen glow -->
+  <g fill="#E32636" opacity="0.5">
+    <rect x="90" y="190" width="60" height="40" rx="6"/>
+    <rect x="330" y="190" width="60" height="40" rx="6"/>
+    <rect x="570" y="190" width="60" height="40" rx="6"/>
+  </g>
+  <!-- Floor -->
+  <rect x="0" y="500" width="800" height="100" fill="#08080A"/>
+</svg>

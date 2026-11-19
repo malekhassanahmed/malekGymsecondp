@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Power Zone Fitness Club — a modern fitness club offering strength training, cardio fitness, group training and beginner fitness programs." />
+    <title>Power Zone Fitness Club</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  </head>
+  <body>
+
+    <!-- ============ HEADER & NAVIGATION ============ -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="logo" aria-label="Power Zone Fitness Club home">
+          <span class="logo-mark">PZ</span>
+          <span class="logo-text">POWER <span>ZONE</span></span>
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#programs" class="nav-link">Programs</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ============ HERO SECTION ============ -->
+      <section class="hero" id="home">
+        <img src="images/hero-gym.svg" alt="Athlete lifting a barbell in a dark gym" class="hero-bg" />
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="hero-kicker">POWER ZONE FITNESS CLUB</p>
+          <h1 class="hero-title">UNLEASH YOUR <span>POTENTIAL.</span></h1>
+          <p class="hero-subtitle">Train smarter. Build strength. Discover what you are capable of.</p>
+          <div class="hero-actions">
+            <a href="#programs" class="btn btn-primary">Explore Programs</a>
+            <a href="#contact" class="btn btn-ghost">Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT SECTION ============ -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">WHO WE ARE</p>
+            <h2 class="section-title">ABOUT POWER ZONE</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p class="lead">
+                Power Zone Fitness Club is a modern training space built around one idea:
+                every person who walks through the door has more potential than they think.
+              </p>
+              <p>
+                Our programs cover everything from structured strength work and conditioning
+                to energetic group sessions. Whether you are picking up a barbell for the
+                first time or chasing a new personal best, you will find a welcoming
+                environment, clear guidance and equipment that lets you train with purpose.
+              </p>
+              <p>
+                We believe fitness is about personal development as much as physical strength.
+                That is why our community focuses on steady progress, encouragement and
+                training that fits real life — not the other way around.
+              </p>
+              <ul class="about-points">
+                <li>Strength and conditioning for every level</li>
+                <li>Supportive coaches and a friendly community</li>
+                <li>A calm, focused training atmosphere</li>
+              </ul>
+            </div>
+
+            <div class="about-media reveal">
+              <img src="images/about-training.svg" alt="Member performing a dumbbell workout at Power Zone" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ HIGHLIGHTS SLIDER ============ -->
+      <section class="highlights section" id="highlights" aria-label="Club highlights">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">WHY TRAIN WITH US</p>
+            <h2 class="section-title">CLUB HIGHLIGHTS</h2>
+          </div>
+
+          <div class="slider reveal" id="highlights-slider">
+            <div class="slider-track" id="slider-track"><!-- slides rendered by script.js --></div>
+
+            <div class="slider-controls">
+              <button class="slider-btn" id="prev-slide" type="button" aria-label="Previous highlight">&#10094;</button>
+              <div class="slider-dots" id="slider-dots"><!-- dots rendered by script.js --></div>
+              <button class="slider-btn" id="next-slide" type="button" aria-label="Next highlight">&#10095;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROGRAMS SECTION ============ -->
+      <section class="programs section" id="programs">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">FIND YOUR TRAINING</p>
+            <h2 class="section-title">OUR PROGRAMS</h2>
+            <p class="section-lead">
+              Four focused programs designed to meet you where you are —
+              and move you forward.
+            </p>
+          </div>
+
+          <!-- Cards are generated dynamically from a JavaScript array -->
+          <div class="programs-grid" id="programs-grid">
+            <!-- rendered by script.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ GALLERY SECTION ============ -->
+      <section class="gallery section" id="gallery">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">INSIDE THE CLUB</p>
+            <h2 class="section-title">GALLERY</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card reveal">
+              <img src="images/gallery-strength.svg" alt="Close-up of a loaded barbell resting on a rack" />
+              <figcaption>Strength Zone</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img src="images/gallery-cardio.svg" alt="Treadmills and rowing machines in the cardio area" />
+              <figcaption>Cardio Floor</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img src="images/gallery-group.svg" alt="Group training session in progress" />
+              <figcaption>Group Training</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT SECTION ============ -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">GET IN TOUCH</p>
+            <h2 class="section-title">CONTACT US</h2>
+            <p class="section-lead">
+              Have a question about training at Power Zone? Send us a message.
+            </p>
+          </div>
+
+          <!-- Front-end demonstration only: this form validates in the browser
+               and does not send data to any server. -->
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="fullName" placeholder="Your full name" autocomplete="name" />
+              <p class="error-message" id="name-error" role="alert" aria-live="polite"></p>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+              <p class="error-message" id="email-error" role="alert" aria-live="polite"></p>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us what you would like to achieve"></textarea>
+              <p class="error-message" id="message-error" role="alert" aria-live="polite"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+
+            <p class="success-message" id="success-message" role="status" aria-live="polite" hidden>
+              Thank you! Your message has been validated successfully.
+              (This is a front-end demonstration — no message is actually sent.)
+            </p>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <p class="logo-text">POWER <span>ZONE</span></p>
+          <p class="footer-tagline">Power Zone Fitness Club</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#programs">Programs</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-meta">
+          <p>&copy; <span id="year"></span> Power Zone Fitness Club. All rights reserved.</p>
+          <p class="footer-credit">Student project by [Student Name]</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" hidden>&#8679;</button>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
